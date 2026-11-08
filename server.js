@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const PORT = 3000;
 const file = "/data/counter.txt";
-const greeting = "Привет из новой версии!";
+const greeting = "Привет из Release Day 1.3.0: теперь с откатом!";
 
 function readCount() {
   if (!fs.existsSync(file)) {
